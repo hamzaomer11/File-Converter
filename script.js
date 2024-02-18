@@ -1,8 +1,9 @@
 // 1st - get file extension
-// 2nd - replace file extension to other valid extensions
+// 2nd - convert file to other files with valid extensions
 
+function validateFileType(fileName) {
+    var fileName = document.getElementById("file-name").value;
+    let fileExtension = fileName.split('.').pop().toLowerCase();
 
-function checkFileConversion() {
-    var fileName = document.getElementById("input").file[0];
-    let fileExtension = fileName.split('.').pop();
 }
+
