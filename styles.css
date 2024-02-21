@@ -40,12 +40,12 @@
     align-items: center;
 }
 
-.browse-btn input[type=file] {
+.browse-btn .form input[type=file] {
     float: right;
     padding: 6px;
     border: none;
-    margin-top: 8px;
-    margin-right: 16px;
+    margin: 8px 16px 10px 0px;
     font-size: 17px;
     border-color: aqua;
 }
+
